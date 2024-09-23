@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",  // Output the compiled JS files to the 'dist' folder
+    "rootDir": "./src",  // Input TypeScript files are in the 'src' folder
+    "target": "ES2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"]
+}
